@@ -1,6 +1,6 @@
 const http = require('http');
 
-const name = 'victor'
+const name = "victor";
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
